@@ -1,0 +1,6 @@
+.heading-1 {
+  @apply max-w-max;
+  background: -webkit-linear-gradient(0deg, #fafafa, #d1d1d1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
