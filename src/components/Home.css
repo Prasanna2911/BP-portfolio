@@ -1,6 +1,10 @@
 .heading-1 {
-  @apply max-w-max;
   background: -webkit-linear-gradient(0deg, #fafafa, #d1d1d1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width: 600px) {
+  .mob-heading {
+    @apply w-[350px] ml-2 text-[45px] mb-16;
+  }
 }

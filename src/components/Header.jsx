@@ -10,8 +10,23 @@ const Header = () => {
       <div className="max-w-screen-2xl w-full mx-auto px-4 flex justify-between items-center md:px-6 md:grid md:grid-cols-[1fr,3fr,1fr]">
         <h1>
           {/* for Logo */}
-          <a href="">
-            <img src="" alt="My-Logo" />
+          <a href="" className="max-sm:mt-2 block">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="100"
+              height="50"
+              viewBox="0 0 100 50"
+            >
+              <text
+                x="10"
+                y="35"
+                fill="white"
+                fontSize="30"
+                fontFamily="Arial, sans-serif"
+              >
+                &lt;/P&gt;
+              </text>
+            </svg>
           </a>
         </h1>
         <div className="relative md:justify-self-center">
