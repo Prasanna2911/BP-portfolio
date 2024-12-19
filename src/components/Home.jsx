@@ -13,8 +13,14 @@ const Home = () => {
           To Know More About Me
         </p>
         <a href="#about" className="max-sm:ml-8">
-          <button className="inline-block bg-zinc-50 text-zinc-900 active:bg-zinc-50/80 h-9 px-4 font-medium rounded-xl text-sm self-start hover:w-[120px] transition-all duration-500">
+          <button className="inline-block bg-zinc-50 text-zinc-900 active:bg-zinc-50/80 h-9 px-4 font-medium  text-sm py-2 border-t border-l border-b rounded-tl-lg rounded-bl-lg">
             Scroll Down
+            <img
+              width="30"
+              src="https://img.icons8.com/color/48/double-down--v2.png"
+              alt="double-down--v2"
+              className="scroll-down relative left-[93px] -top-[29px] bg-zinc-50 border-t border-r border-b rounded-tr-lg rounded-br-lg h-[36px]"
+            />
           </button>
         </a>
       </div>
