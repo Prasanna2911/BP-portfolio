@@ -8,8 +8,8 @@ const Home = () => {
           Building Scalable Modern Websites for the Future
         </h1>
       </div>
-      <div className="btns-div relative md:left-[300px] w-[230px] max-sm:left-[86px]">
-        <p className="pb-4 md:text-[18px] text-zinc-400">
+      <div className="btns-div relative md:left-[300px] w-[230px] max-sm:left-[70px]">
+        <p className="pb-4 md:text-[18px] text-zinc-400 max-sm:text-[18px] font-medium">
           To Know More About Me
         </p>
         <a href="#about" className="max-sm:ml-8">
@@ -19,7 +19,7 @@ const Home = () => {
               width="30"
               src="https://img.icons8.com/color/48/double-down--v2.png"
               alt="double-down--v2"
-              className="scroll-down relative left-[93px] -top-[29px] bg-zinc-50 border-t border-r border-b rounded-tr-lg rounded-br-lg h-[36px]"
+              className="scroll-down relative left-[93px] max-sm:left-[90px] -top-[29px] bg-zinc-50 border-t border-r border-b rounded-tr-lg rounded-br-lg h-[36px]"
             />
           </button>
         </a>

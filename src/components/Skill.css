@@ -1,3 +1,8 @@
 img {
   cursor: pointer;
 }
+@media screen and (max-width: 600px) {
+  .mob-p {
+    @apply w-[300px];
+  }
+}

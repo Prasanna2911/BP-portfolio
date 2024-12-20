@@ -2,11 +2,11 @@ import "./Skill.css";
 // import scrollDown from "../assets/scrollDown.gif";
 const Skill = () => {
   return (
-    <div id="skills" className="px-[75px] mt-3 h-[70vh]">
+    <div id="skills" className="md:px-[75px] max-sm:px-8 mt-3 mb-8 h-[100vh]">
       <h2 className="Heading-2 md:text-3xl font-medium pb-4 mt-1 max-sm:text-[20px]">
         Essential Tool I Use
       </h2>
-      <p className="text-zinc-400 pb-2 max-sm:text-[15px]">
+      <p className="text-zinc-400 pb-2 max-sm:text-[15px] mob-p">
         Discover the powerful tools and technologies I use to create ,
         High-Performing websites & applications.
       </p>
