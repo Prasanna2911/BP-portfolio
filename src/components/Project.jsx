@@ -52,8 +52,8 @@ const Project = () => {
               className="max-sm:absolute"
             >
               <img
-                width="45"
-                height="45"
+                width="40"
+                height="40"
                 src="https://img.icons8.com/ios-filled/50/long-arrow-right.png"
                 alt="long-arrow-right"
                 className="bg-white rounded-full p-2 mob-arrow-icon-1"
@@ -61,7 +61,7 @@ const Project = () => {
             </a>
           </div>
         </div>
-        <hr className="border-b border-zinc-600" />
+        <span className="border-b border-zinc-400 block mt-3" />
         {/* Project-2 */}
         <div className="project-2  md:h-[400px] flex justify-evenly md:items-center max-sm:flex-col max-sm:mt-16">
           <div className="project-img-div max-sm:mb-8">
@@ -94,8 +94,8 @@ const Project = () => {
               className=""
             >
               <img
-                width="45"
-                height="45"
+                width="40"
+                height="40"
                 src="https://img.icons8.com/ios-filled/50/long-arrow-right.png"
                 alt="long-arrow-right"
                 className="bg-white rounded-full p-2 mob-arrow-icon-2"
@@ -103,6 +103,7 @@ const Project = () => {
             </a>
           </div>
         </div>
+        <span className="border-b border-zinc-400 block -mt-2" />
       </main>
     </div>
   );
