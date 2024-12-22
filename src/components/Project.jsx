@@ -1,4 +1,5 @@
 import realestate from "../assets/realestate.png";
+import krt from "../assets/krt.png";
 import "./Project.css";
 const Project = () => {
   // #2397f3  Blue Color
@@ -65,7 +66,7 @@ const Project = () => {
         <div className="project-2  md:h-[400px] flex justify-evenly md:items-center max-sm:flex-col max-sm:mt-16">
           <div className="project-img-div max-sm:mb-8">
             <img
-              src={realestate}
+              src={krt}
               alt="Loading..."
               className="border-[#2397f3] w-[400px]"
             />
@@ -90,7 +91,7 @@ const Project = () => {
             <a
               href="https://krtenggworks.vercel.app/"
               target="_blank"
-              className="max-sm:absolute"
+              className=""
             >
               <img
                 width="45"
