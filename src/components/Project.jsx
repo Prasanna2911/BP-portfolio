@@ -1,10 +1,10 @@
-import React from "react";
-
+import realestate from "../assets/realestate.png";
+import "./Project.css";
 const Project = () => {
   // #2397f3  Blue Color
   return (
-    <div id="projects" className="md:px-[70px]  max-sm:px-8 mb-12">
-      <div className="project-heading flex justify-between mb-8">
+    <div id="projects" className="md:px-[70px]  max-sm:px-8 mb-12 ">
+      <div className="project-heading flex justify-between max-sm:mb-8">
         <h2 className="heading-2  text-3xl font-medium max-sm:text-[18px]">
           My Projetcs
         </h2>
@@ -15,12 +15,17 @@ const Project = () => {
         </a>
       </div>
 
-      <main className="project-main-div h-[700px]">
-        <div className="project-1 h-[450px] flex justify-between md:items-center max-sm:flex-col">
-          <div className="project-img-div">
-            <img src="" alt="Project Photos" />
+      <main className="project-main-div">
+        {/* project-1 */}
+        <div className="project-1 md:h-[400px] flex justify-evenly md:items-center max-sm:flex-col">
+          <div className="project-img-div max-sm:mb-8">
+            <img
+              src={realestate}
+              alt="Loading..."
+              className="border-[#2397f3] w-[400px]"
+            />
           </div>
-          <div className="project-content-div w-[50%]">
+          <div className="project-content-div">
             <p className="text-[#2397f3] font-medium text-[15px] max-sm:w-[200px]">
               Frontend Web Application
             </p>
@@ -39,19 +44,64 @@ const Project = () => {
               modern front-end technologies.
             </p>
           </div>
-          <div className="arrow-div w-[10%] max-sm:hidden">
-            <a href="https://real-estate-app-2024.vercel.app/" target="_blank">
+          <div className="arrow-div w-[10%]">
+            <a
+              href="https://real-estate-app-2024.vercel.app/"
+              target="_blank"
+              className="max-sm:absolute"
+            >
               <img
                 width="45"
                 height="45"
-                src="https://img.icons8.com/skeuomorphism/32/long-arrow-right.png"
+                src="https://img.icons8.com/ios-filled/50/long-arrow-right.png"
                 alt="long-arrow-right"
-                className="border border-x-white rounded-[50%] p-2 hover:border-gray-400 transition-colors duration-500"
+                className="bg-white rounded-full p-2 mob-arrow-icon-1"
               />
             </a>
           </div>
         </div>
         <hr className="border-b border-zinc-600" />
+        {/* Project-2 */}
+        <div className="project-2  md:h-[400px] flex justify-evenly md:items-center max-sm:flex-col max-sm:mt-16">
+          <div className="project-img-div max-sm:mb-8">
+            <img
+              src={realestate}
+              alt="Loading..."
+              className="border-[#2397f3] w-[400px]"
+            />
+          </div>
+          <div className="project-content-div">
+            <p className="text-[#2397f3] font-medium text-[15px] max-sm:w-[200px]">
+              Frontend Web Application
+            </p>
+            <h2 className="text-white font-bold text-[23px] pt-1 pb-7 max-sm:w-[300px]">
+              KRT Engg Works
+            </h2>
+            <p className="text-[14px] text-zinc-400 font-medium text-justify md:w-[400px] max-sm:w-[300px] max-sm:mb-4">
+              Developed a responsive web application using React.js to showcase
+              a range of industrial machines and products. Implemented features
+              to display machine capabilities, technical specifications, and
+              accuracy, providing users with detailed insights. Integrated a
+              user-friendly "Request a Quote" form, enabling seamless inquiries
+              and submission of design requirements.
+            </p>
+          </div>
+          <div className="arrow-div w-[10%]">
+            <a
+              href="https://krtenggworks.vercel.app/"
+              target="_blank"
+              className="max-sm:absolute"
+            >
+              <img
+                width="45"
+                height="45"
+                src="https://img.icons8.com/ios-filled/50/long-arrow-right.png"
+                alt="long-arrow-right"
+                className="bg-white rounded-full p-2 mob-arrow-icon-2"
+              />
+            </a>
+          </div>
+        </div>
       </main>
     </div>
   );

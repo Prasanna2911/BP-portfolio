@@ -2,7 +2,7 @@ import "./Skill.css";
 // import scrollDown from "../assets/scrollDown.gif";
 const Skill = () => {
   return (
-    <div id="skills" className="md:px-[75px] max-sm:px-8 mt-3 mb-8 h-[100vh]">
+    <div id="skills" className="md:px-[75px] max-sm:px-8 mt-3 mb-16">
       <h2 className="Heading-2 md:text-3xl font-medium pb-4 mt-1 max-sm:text-[20px]">
         Essential Tool I Use
       </h2>

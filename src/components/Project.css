@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px) {
+  .mob-arrow-icon-1 {
+    @apply relative left-[270px] h-8 w-8 -top-[340px];
+  }
+  .mob-arrow-icon-2 {
+    @apply relative left-[270px] h-8 w-8 -top-[275px];
+  }
+}
