@@ -1,8 +1,9 @@
+import { FaLinkedinIn } from "react-icons/fa";
 const Testmonials = () => {
   return (
     <section
       id="testmonials"
-      className="mt-4 px-16 md:flex justify-between items-center max-sm:px-8 mb-8"
+      className="md:mt-8 px-16 md:flex justify-between items-center max-sm:px-8 h-[400px]"
     >
       <h1 className="text-5xl max-sm:text-3xl max-sm:text-center max-sm:pb-8 font-medium">
         Testmonials
@@ -21,8 +22,11 @@ const Testmonials = () => {
             <a
               href="https://www.linkedin.com/in/rajesh-v-7a4122270/"
               target="_blank"
-            ></a>
+            >
+              <FaLinkedinIn size={16} className="relative left-[72px] -top-5" />
+            </a>
           </p>
+
           <p className="text-zinc-400">Product Designer at KRT</p>
         </div>
       </div>
