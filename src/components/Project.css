@@ -3,6 +3,6 @@
     @apply relative left-[270px] h-8 w-8 -top-[340px];
   }
   .mob-arrow-icon-2 {
-    @apply relative left-[270px] h-9 w-9 -top-[275px];
+    @apply relative left-[270px] h-[31px] w-[33px] -top-[275px];
   }
 }

@@ -94,7 +94,7 @@ const Project = () => {
               className=""
             >
               <img
-                width="40"
+                width="50"
                 height="40"
                 src="https://img.icons8.com/ios-filled/50/long-arrow-right.png"
                 alt="long-arrow-right"

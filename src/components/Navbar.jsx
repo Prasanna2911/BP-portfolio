@@ -46,7 +46,7 @@ const Navbar = ({ navOpen }) => {
   ];
 
   return (
-    <nav className={`navbar ${navOpen ? "active" : ""}`}>
+    <nav className={`navbar ${navOpen ? "active" : ""} z-50`}>
       {navItems.map(({ label, link, className }, key) => (
         <a
           href={link}

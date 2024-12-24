@@ -13,3 +13,12 @@
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
 }
+
+@media screen and (max-width: 600px) {
+  .mob-box-1 {
+    @apply h-10  w-10 relative -top-16 left-1 hidden;
+  }
+  .mob-box-2 {
+    @apply h-10  w-10 relative  right-4 hidden;
+  }
+}

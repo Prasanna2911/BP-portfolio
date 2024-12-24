@@ -1,9 +1,14 @@
 // import aboutImg from "../assets/gifimage.gif";
 import "./About.css";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div
+    <motion.div
+      // initial={{ opacity: 0, x: 200 }}
+      // transition={{ duration: 1.5 }}
+      // whileInView={{ opacity: 1, x: 0 }}
+      // viewport={{ once: true }}
       id="about"
       className="h-[100vh] mb-1 flex justify-center items-center gap-11 max-sm:flex-col"
     >
@@ -29,7 +34,7 @@ const About = () => {
           commitment to delivering high-quality code that meets client needs.
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

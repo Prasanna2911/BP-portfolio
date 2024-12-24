@@ -1,11 +1,16 @@
 import "./Home.css";
 import myImg from "../assets/Me.png";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <section
+    <motion.section
+      initial={{ opacity: 0, y: 100 }}
+      transition={{ duration: 1.5 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
       id="home"
-      className="md:pt-28  z-1 flex justify-center items-center  md:gap-12 max-sm:flex-col-reverse max-sm:pt-2"
+      className="md:pt-20  !z-1 flex justify-center items-center  md:gap-12 max-sm:flex-col-reverse max-sm:pt-2"
     >
       <div className="left-side-div">
         <div className="heading-1 container mb-6 ">
@@ -34,7 +39,7 @@ const Home = () => {
       <div className="right-side-div">
         <img src={myImg} alt="my Image" className="h-[500px]" />
       </div>
-    </section>
+    </motion.section>
   );
 };
 

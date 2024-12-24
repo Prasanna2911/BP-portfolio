@@ -16,7 +16,7 @@ const Testmonials = () => {
           ipsum dolor sit amet consectetur adipisicing elit.
         </p>
         <span className="border-t border-zinc-400 block pt-6"></span>
-        <div className="owner-div text-[14px] flex justify-between items-center">
+        <div className="owner-div text-[14px] flex justify-between">
           <p className="font-medium">
             Rajesh V
             <a
