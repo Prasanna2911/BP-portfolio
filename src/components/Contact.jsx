@@ -3,7 +3,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div id="contact" className="md:mt-20 md:px-20 mb-4 max-sm:px-2">
-      <div className="content-div flex items-center justify-between h-[200px] bg-gray-800 rounded-xl">
+      <div className="content-div flex items-center justify-between md:h-[300px] h-[200px] bg-gray-800 rounded-xl">
         <img
           width="100"
           height="100"
