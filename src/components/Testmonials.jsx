@@ -10,10 +10,13 @@ const Testmonials = () => {
       </h1>
       <div className="content-div md:w-[50%]">
         <p className="text-zinc-400 max-sm:w-[300px] text-justify pb-6">
-          I am really happy about the work done by my friend. The aura he
+          {/* I am really happy about the work done by my friend. The aura he
           carried through the whole project is insane, he has done each and
           every work detailly which our team was totally expecting. Looking
-          forward to join hands with any of his future projectsm
+          forward to join hands with any of his future projectsm */}
+          Prasanna is a great website developer that I have ever worked. During
+          the days he worked I had seen his sincerity and commitment on the
+          project. I believe the best decision made by me is choosing him .
         </p>
         <span className="border-t border-zinc-400 block pt-6"></span>
         <div className="owner-div text-[14px] flex justify-between">
