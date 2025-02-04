@@ -49,7 +49,7 @@ const Contact = () => {
       </div>
       <div className="copy-right md:mt-8 max-sm:px-5 mb-4 max-sm:mt-6">
         <p className="border-t border-zinc-500 text-[14px] text-zinc-400 font-light pt-4 text-center ">
-          Copyright © 2024 , All Rights Reserved
+          Copyright © 2025 , All Rights Reserved
         </p>
       </div>
     </div>
