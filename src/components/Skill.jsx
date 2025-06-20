@@ -102,11 +102,11 @@ const Skills = () => {
           ))}
         </div>
 
-        <div className="mt-8 sm:mt-12 text-center">
+        {/* <div className="mt-8 sm:mt-12 text-center">
           <p className="text-zinc-500 text-sm">
             Always learning and exploring new technologies
-          </p>
-        </div>
+          </p>  
+        </div> */}
       </div>
     </section>
   );
