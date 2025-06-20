@@ -31,7 +31,11 @@ const Home = () => {
         </div>
       </div>
       <div className="right-side-div">
-        <img src={myImg} alt="my Image" className="h-[500px]" />
+        <img
+          src="https://ik.imagekit.io/d3kzbpbila/thejashari_3LZxLraPV"
+          alt="my Image"
+          className="h-[500px]"
+        />
       </div>
     </motion.section>
   );
